@@ -41,7 +41,7 @@ def valid_proof(last_hash, proof):
     IE:  last_hash: ...AE9123456, new hash 123456E88...
     """
     last_proof_hash = hashlib.sha256(str(last_hash).encode()).hexdigest()
-    new_proof_hash = hashlib.sha256(proof.encode()).hexdigest()
+    new_proof_hash = hashlib.sha256(str(proof).encode()).hexdigest()
     
     return new_proof_hash[:6] == last_proof_hash[-6:]
 
