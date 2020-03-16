@@ -1,7 +1,7 @@
 # Sprint Challenge: Hash Tables and Blockchain
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint, we learned how hash tables combine two data structures to get the best of both worlds and were introduced into the fascinating world of blockchains. In your challenge this week, you will demonstrate proficiency by solving algorithms in Python using hash tables and add another key feature to your blockchain.
-
+ 
 ## Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
@@ -24,7 +24,7 @@ This sprint challenge is divided up into three parts:  Hash tables coding, block
 
 Explain in detail the workings of a dynamic array:
 * What is the runtime complexity to access an array, add or remove from the front, and add or remove from the back?
-* What is the worse case scenario if you try to extend the storage size of a dynamic array?
+* What is the worse case scenario if you try to extend the storage size of a dynamic array? 0(n)
 
 Explain how a blockchain is structured. What are the blocks, what is the chain? How is the data organized?
  
